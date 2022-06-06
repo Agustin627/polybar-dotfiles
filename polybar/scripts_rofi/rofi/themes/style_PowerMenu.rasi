@@ -1,0 +1,39 @@
+/* Message Dialog */
+
+* {
+    background-color:       #000000;
+    text-color:             #E2FC75;
+	font:				 	"FantasqueSansMono Nerd Font 13";
+}
+window {
+    height:				25%;
+    width:      			390px;
+    padding:    			25px;
+    border:					1px;
+    border-radius:          0px;
+    border-color:           #00000000;
+    location:               east;
+    y-offset:               -14em;
+}
+prompt {
+    enabled: 						true;
+	padding: 						10px 15px 10px 15px;
+	background-color: 				#00000000;
+	text-color: 					#FF0000;
+	font:							"Iosevka Nerd Font 10";
+}
+
+entry {
+    expand: 				false;
+    text-color:				#fefefe;
+}
+
+element selected {
+    background-color:               #7C1D28FF;
+    text-color:                     #FFFFFFFF;
+	border:							0px;
+    border-radius:                  1px;
+    border-color:                  	#7C1D28FF;
+}
+
+
